@@ -1,4 +1,4 @@
-# spotify-search-tool
+# What are their Top 10?
 
 ## Description
 This app allows users to search for artists on Spotify and retrieve their top tracks, by leveraging the Spotify Web API to fetch data based on user input
