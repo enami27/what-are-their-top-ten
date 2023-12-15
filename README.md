@@ -20,20 +20,20 @@ Create a .env separate file to store your `CLIENT_ID` and `CLIENT_SECRET` like s
 `CLIENT_ID = 'your_spotify_client_id'
 CLIENT_SECRET = 'your_spotify_client_secret'`
 
-** Important : Do not share these credentials with anyone, make sure you store them in a seprate `.env` file that only you have access to ** 
+**Important** : Do not share these credentials with anyone, make sure you store them in a seprate `.env` file that only you have access to ** 
 
 ### Usage
 To run the app, simply run `python main.py` (replace `main.py` by your script name) or `python3 main.py`
 
 ## Features
-** Artist search ** : Search for any artist on spotify 
-** Top tracks retrieval ** = Retrieves and displaus the top tracks of any given artist (assuming it exists on Spotify)
-** Authorization token handling ** : Automatically handles the generation of auth token needed for API requests
+**Artist search** : Search for any artist on spotify 
+**Top tracks retrieval** = Retrieves and displaus the top tracks of any given artist (assuming it exists on Spotify)
+**Authorization token handling** : Automatically handles the generation of auth token needed for API requests
 
 ## How it works
-** Token generation ** : Retrieves an auth token using your Spotify API credentials
-** Artist search ** : Searches for an artist based on the user's input
-** Top tracks display ** : If the artist is found, the app lists their top tracks
+**Token generation** : Retrieves an auth token using your Spotify API credentials
+**Artist search** : Searches for an artist based on the user's input
+**Top tracks display** : If the artist is found, the app lists their top tracks
 
 ## Limitations
 - The search is limited to Spotify's database and API capabilities (limited amount of requests, etc...)
